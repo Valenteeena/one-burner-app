@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas Project</title>
+</head>
+<body>
+	<div>
+		<input type="file" id="imageInput" accept="image/*" multiple="false">
+	</div>
+
+	<canvas id="canv"></canvas>
+</body>
+<script type="text/javascript">
+	let fileInp = document.getElementById('imageInput');
+	fileInp.addEventListener('change', function (ev) {
+		if(ev.target.files){
+			let fl = ev.target.files[0];
+
+			var reader = new FileReader();
+
+			reader.onloadend = function(e) {
+				var img = new Image();	
+				img.src = e.target.result;
+
+				img.onload = function(ev) {
+      				var canvas = document.getElementById('canv');
+      				canvas.width = img.width;
+       				canvas.height = img.height;
+       				var ctx = canvas.getContext('2d');
+       				ctx.drawImage(img,0,0);
+      			} 
+			}
+			reader.readAsDataURL(fl);
+
+		}
+	});
+
+</script>
+</html>

@@ -1,28 +1,32 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <Container msg="Hello" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Container from './components/Container.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Container
   }
 }
 </script>
 
 <style>
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap'); */
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+:root {
+  --primaryColor: #462686;
+  --fontcolor: #454545;
+}
+*{
+  font-family: 'Sofia Pro', sans-serif;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: var(fontcolor);
 }
 </style>
