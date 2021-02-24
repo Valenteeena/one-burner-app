@@ -2,11 +2,13 @@
     <div>
         <Header/>
         <h1>Homepage</h1>
+        <Footer/>
     </div>
 </template>
 
 <script>
 import Header from './Header'
+import Footer from './Footer'
 export default {
     name: 'Home',
     data(){
@@ -15,7 +17,8 @@ export default {
     }
   },
   components:{
-    Header
+    Header,
+    Footer
   }
 }
 </script>

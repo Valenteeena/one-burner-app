@@ -56,25 +56,25 @@ export default {
     h2{
         color:#333;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 4rem;
         margin-bottom: .8rem;
     }
     h5{
         font-weight: 500;
-        font-size: 12px;
+        font-size: 14px;
         color: var(--primaryColor);
     }
     p{
-        font-size: 13px;
+        font-size: 15px;
         color:rgba(51, 51, 51, 0.8);
         margin-bottom: 4rem;
     }
     .login-form{
         text-align: left;
-        width: 40%;
+        width: 35%;
         margin: auto;
-        font-size: 10px;
+        font-size: 12px;
         padding-left: 2rem;
         padding-right: 2rem;
         color:rgba(51, 51, 51, 0.8);
@@ -86,7 +86,8 @@ export default {
     .txtbx{
         width: 100%;
         background: white;
-        height:40px;
+        height:45px;
+        padding-left: 1rem;
         border:1px solid var(--fontcolor);
         border-radius: 5px;
         margin-top: .5rem;
@@ -94,12 +95,12 @@ export default {
     .frmBtn button{
         background: var(--primaryColor);
         width:100%;
-        height: 40px;
+        height: 45px;
         border:none;
         border-radius: 20px;
         color: white;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
@@ -114,9 +115,9 @@ export default {
     }
     .alt-login h5{
         color:#333;
-        font-size: 10px;
+        font-size: 12px;
     }
     .alt-login img{
-        width:1.2rem;
+        width:1.5rem;
     }
 </style>

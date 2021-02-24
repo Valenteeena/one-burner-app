@@ -31,19 +31,19 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 .navmenu{
     display: flex;
     align-items: center;
 }
 .logo{
-    width:8rem;
+    width:10rem;
 }
 
 ul li{
     list-style-type: none;
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -53,8 +53,8 @@ ul li{
     color: white;
     border: none;
     padding: .5rem 1rem;
-    font-size: 10px;
-    width:120px;
+    font-size: 12px;
+    width:140px;
     font-weight: 100;
 }
 .btn-caret{

@@ -20,12 +20,10 @@
                 <li><router-link to="/login">Login</router-link></li>
             </ul>
         </div>
-        <div>
             <button class="nav-btn">
                 Try for Free
                 <i class="fas fa-angle-right btn-caret"></i>
             </button>
-        </div>
     </div>
 </template>
 
@@ -50,13 +48,13 @@ a{
     margin-bottom: 2rem;
 }
 .logo{
-    width:8rem;
+    width:10rem;
 }
 .navmenu{
     width:50%;
 }
 .nav2{
-    width:20%;
+    width:18%;
 }
 .navigation{
     display: flex;
@@ -66,7 +64,7 @@ a{
 ul li{
     padding-top: 1.5rem;
     list-style-type: none;
-    font-size: 12px;
+    font-size: 15px;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -75,9 +73,9 @@ ul li{
     border-radius: 20px;
     color: white;
     border: none;
-    padding: .5rem 1rem;
-    font-size: 10px;
-    width:120px;
+    padding: .8rem 1rem;
+    font-size: 12px;
+    width:140px;
     font-weight: 100;
 }
 .btn-caret{

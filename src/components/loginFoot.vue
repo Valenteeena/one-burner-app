@@ -13,6 +13,6 @@ export default {
 <style scoped>
 .footer p{
     color:rgba(51, 51, 51.0.8);
-    font-size: 12px;
+    font-size: 14px;
 }
 </style>
