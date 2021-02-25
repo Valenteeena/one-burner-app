@@ -54,7 +54,7 @@ ul li{
     border-radius: 20px;
     color: white;
     border: none;
-    padding: .5rem 1rem;
+    padding: .8rem 1rem;
     font-size: 12px;
     width:140px;
     font-weight: 100;
