@@ -1,6 +1,8 @@
 <template>
     <div class="head">
-        <img src="../assets/img/oneburnerlogo.png" class="logo"/>
+        <router-link to="/">
+            <img src="../assets/img/oneburnerlogo.png" class="logo"/>
+        </router-link>
         <div class="navmenu">
             <ul class="navigation">
                 <li><router-link to="/login">New customer?</router-link></li>
